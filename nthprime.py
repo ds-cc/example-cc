@@ -6,6 +6,13 @@
 # and finds the nth prime
 # your list of primes begins at 2.
 #
+
+def isprime(m): 
+    for k in range(2, int(m**0.5 + 1)): 
+        if m%k==0: 
+            return False
+    return True
+
 def nthprime(n):
     '''receives an int and gives an int back'''
-    pass # your code here.
+    pass

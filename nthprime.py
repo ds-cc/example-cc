@@ -15,4 +15,5 @@ def isprime(m):
 
 def nthprime(n):
     '''receives an int and gives an int back'''
-    pass
+    primes = [k for k in range(2, n**4) if isprime(k)]
+    return primes[n]

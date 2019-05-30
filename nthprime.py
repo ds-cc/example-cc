@@ -6,6 +6,6 @@
 # and finds the nth prime
 # your list of primes begins at 2.
 #
-def nth_prime(n):
+def nthprime(n):
     '''receives an int and gives an int back'''
     pass # your code here.
